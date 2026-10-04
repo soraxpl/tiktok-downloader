@@ -1,0 +1,8 @@
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/api/404.ts" }],
+  "functions": {
+    "api/*.ts": {
+        "maxDuration": 50
+    }
+  }
+}
